@@ -5,7 +5,7 @@
 (function() {
 
 	function enumerate(obj) {
-		var name, step = (arguments.length == 2) ? arguments[1] : 0;
+		var name, step = (arguments.length === 2) ? arguments[1] : 0;
 		for (name in obj) {
 			if (!!obj.hasOwnProperty(name)) {
 				if (typeof obj[name] === "object") {
