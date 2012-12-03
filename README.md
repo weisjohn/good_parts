@@ -9,7 +9,7 @@ As I am reading through the book, I'm able to build sample files for each sectio
 
 What?
 ------------------------------------------------------------
-These are snippets / notes from the book that I made / used to learn the techniques from Douglas Crockford's <a href="http://jsninja.com">JavaScript: the Good Parts</a>. 
+These are snippets / notes from the book that I made / used to learn the techniques from Douglas Crockford's <a href="http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742">JavaScript: the Good Parts</a>. 
 
 
 Why?
