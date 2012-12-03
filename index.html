@@ -75,26 +75,26 @@
 			// console.log('done');
 			var chapters = data.chapters;
 			
-			$.each(chapters, function(c, sec){
+			$.each(chapters, function(c, fil){
 				
 				if (chapter !== undefined && chapter == c) {
 
-					$.each(sec.sections, function(s, fil) {
+					//$.each(sec.sections, function(s, fil) {
 						//console.log('\tsection: ' + s);
 						
 						$.each(fil.files, function(k, f) {
 							
 							//console.log('\t\tfile: ' + f);
 							
-							var path = [ 'code' , c , s , f + '.js' ].join("\\");
+							var path = [ 'code' , c , f + '.js' ].join("\\");
 							
 							valid_paths.push(path);
 							
-							//console.log('path generated: ' +  path);
+							// console.log('path generated: ' +  path);
 							
 						});
 						
-					});
+					//});
 
 				}
 					
