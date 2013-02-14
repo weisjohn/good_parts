@@ -30,3 +30,10 @@ function assert(test, message) {
 		console.log('fail: ' + message);
 	}
 }
+
+
+
+Function.prototype.method = function (name, func) {
+    this.prototype[name] = func;
+    return this;
+};
