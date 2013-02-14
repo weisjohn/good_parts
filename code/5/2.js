@@ -27,7 +27,6 @@ var Car = function(model) {
     }
 });
 
-
 var jetta = new Car('volkswagen');
 jetta.drive();
 jetta.start();
