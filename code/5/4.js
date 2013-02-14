@@ -48,3 +48,13 @@ widget.activate();
 console.log(widget.get_interactions());
 widget.foo = function() { console.log('...') }; widget.foo();
 console.log(widget.get_interactions());
+
+
+// from the book:
+
+/*
+ * If we create an object in the functional style, and if all of the methods of the object 
+ * make no use of this or that, then the object is durable. A durable object is simply a 
+ * collection of functions that act as capabilities.
+ *
+ */
