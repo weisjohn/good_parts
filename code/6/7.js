@@ -8,11 +8,10 @@ String.prototype.repeat = function(length) {
     return that;
 }
 
-Array.method('dimensional', function (m, n, initial, me) {
+Array.method('dimensional', function (m, n, initial) {
     if (typeof m === "number" && typeof n === "number") {} else { return; }
     
     var arr = []
-    // if (initial) { arr[0] = initial; }  
     for (var i = 0; i < n; i++) {
         // on the last dimension, just expand the array
         if (m > 2) {
